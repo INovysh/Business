@@ -1,0 +1,21 @@
+.header {
+  min-height: 85px;
+  background: #fff;
+  padding: 15px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+  }
+  &__item {
+    display: grid;
+    grid-template-columns: 28px auto;
+    column-gap: 12px;
+  }
+  &__title {
+    font-weight: 700;
+  }
+  &__text {
+    font-weight: 300;
+  }
+}

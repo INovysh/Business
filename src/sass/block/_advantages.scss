@@ -1,0 +1,32 @@
+.adv {
+  background: #fff;
+  padding: 80px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__item {
+    position: relative;
+  }
+  &__descr {
+    position: absolute;
+    width: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    &_bold {
+      font-weight: 700;
+    }
+  }
+  &__arrow {
+    margin-top: 48px;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+  }
+}

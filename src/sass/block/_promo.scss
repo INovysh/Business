@@ -1,0 +1,63 @@
+.promo {
+  background: url("../img/promo_bg.jpg") center center / cover no-repeat #0d2941;
+  &__container {
+    position: relative;
+  }
+  &__nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+    font-size: 13px;
+    a {
+      transition: all 0.5s;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      &:hover{
+        color:#00c2f0;
+        transform:scale(1.08);
+      }
+    }
+  }
+  &__logo {
+    position: absolute;
+    top: 40px;
+    left: 0;
+  }
+  &__info {
+    padding-top: 230px;
+    padding-bottom: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 690px;
+  }
+  &__subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+  }
+  &__mob {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  &__btn {
+    width: 240px;
+    height: 60px;
+    background: #00c2f0;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+  }
+}
